@@ -1,0 +1,8 @@
+.cards {
+  margin-top: -50px;
+}
+.cards a {
+  &:hover {
+    opacity: 0.5;
+  }
+}

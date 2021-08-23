@@ -1,0 +1,44 @@
+.carousel {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  opacity: 0.1;
+  width: 60%;
+}
+.carousel img {
+  width: 100%;
+}
+.carousel-indicators {
+  display: none;
+  bottom: -50px;
+  right: 0;
+  left: initial;
+  margin-right: 0;
+  li {
+    height: 5px;
+    width: 25px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .carousel {
+    width: 65%;
+    margin-top: 50px;
+    opacity: 1;
+    position: relative;
+    float: right;
+  }
+  .carousel-indicators {
+    display: flex;
+  }
+}
+@media screen and (min-width: 992px) {
+  .carousel {
+    width: 50%;
+    float: right;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .carousel img {
+    width: 80%;
+  }
+}

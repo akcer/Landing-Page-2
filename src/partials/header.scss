@@ -1,0 +1,29 @@
+.header-background {
+  background-image: url(./images/header-background.png);
+}
+.header-button {
+  background-color: #a1a1a1;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .header-text {
+    width: 80%;
+  }
+  .header-button {
+    position: absolute;
+    bottom: 50px;
+    left: 1em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-text {
+    width: 50%;
+  }
+  .header-button {
+    position: static;
+  }
+}

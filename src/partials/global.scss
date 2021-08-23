@@ -1,0 +1,11 @@
+html {
+  font-family: 'HelveticaNue';
+}
+.striped-line {
+    height: 5px !important;
+    background-image: repeating-linear-gradient(
+      -45deg,
+      #cecece 0 2px,
+      transparent 2px 4px
+    );
+  }

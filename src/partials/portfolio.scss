@@ -1,0 +1,24 @@
+.portfolio__images__content--hover {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  .icon {
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.3);
+    img {
+      filter: invert(100%);
+      opacity: 0.5;
+    }
+  }
+}
+.portfolio__images__content:hover {
+  .portfolio__images__content__img {
+    filter: grayscale(100%) brightness(30%) blur(2px);
+  }
+  .portfolio__images__content--hover {
+    z-index: 1;
+    display: flex;
+  }
+}
